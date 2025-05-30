@@ -1,11 +1,7 @@
 services:
   my-ollama-openrouter-proy:
-    #digest corresponds to tag amd64-3.00-r2-ls102
-    #image: linuxserver/transmission@sha256:a248b9d3525e6fdee068eac3d200c276d54a02bb304dea03ca9ef0c9bb55dabe
-    #digest corresponds to linuxserver/transmission:4.0.6 (amd64)
     build: .
     ports:
-      - 8080:8080
       - 11434:11434
     restart: unless-stopped
     #user: 123:4096
