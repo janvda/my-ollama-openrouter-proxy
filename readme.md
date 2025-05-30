@@ -1,6 +1,10 @@
-# Enchanted Proxy for OpenRouter
-This repository is specifically made for use with the [Enchanted project](https://github.com/gluonfield/enchanted/tree/main).
+# My Ollama Proxy for OpenRouter
+This repository was specifically made for use with the [Enchanted project](https://github.com/gluonfield/enchanted/tree/main).
 The original author of this proxy is [marknefedov](https://github.com/marknefedov/ollama-openrouter-proxy).
+
+## Security
+
+Be carefull, the port 11434 is opened without any protection.  So if no protection then anyone can access this proxy and use the openrouter models at your expense.
 
 ## Test
 

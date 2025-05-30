@@ -8,3 +8,4 @@ services:
     environment:
      - OPENAI_API_KEY=${OPENROUTERAI_OLLAMA_PROXY_KEY?env variable OPENAI_API_KEY must be set !!}
      - TZ=Europe/Brussels
+     - GIN_MODE=release
